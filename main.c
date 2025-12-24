@@ -1,20 +1,15 @@
 #include <stdio.h>
 
 int main() {
-
-    int n;
-    int fact = 1;
-
-    printf("Faktoriyel istediginiz sayiyi giriniz: ");
-    scanf("%d", &n);
-
-    while (n !=0) {
-printf("%d\n", n);
-        fact = fact * n;
-
-        n--;
+    int a;
+    int fact=1;
+    printf("lutfen bir sayi giriniz:");
+    scanf("%d", &a);
+    while (a !=0) {
+        printf("%d\n" , a);
+        fact = fact * a;
+        a--;
     }
     printf("%d\n", fact);
     return 0;
-
 }
